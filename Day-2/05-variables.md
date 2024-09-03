@@ -8,7 +8,7 @@ Input variables are used to parameterize your Terraform configurations. They all
 
 ```hcl
 variable "example_var" {
-  description = "An example input variable"
+  description = "An example input variable" # not nessasary 
   type        = string
   default     = "default_value"
 }
